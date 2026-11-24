@@ -1,0 +1,40 @@
+# Конфиденциальные настройки
+.env
+.env.*
+!.env.example
+
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Резервные копии
+app_backup.py
+data/test_cases.before_final.json
+results/*backup*.csv
+results/baseline_pilot.csv
+
+# Промежуточные эксперименты
+results/experiments/experiment_001/
+results/experiments/experiment_002/
+
+# Архивы
+*.tar.gz
+*.zip
+
+# Локальные настройки Streamlit
+.streamlit/secrets.toml

@@ -1,0 +1,23 @@
+{
+    "experiment_id": "experiment_003",
+    "provider": "groq",
+    "base_url": "https://api.groq.com/openai/v1",
+    "model": "qwen/qwen3.8-27b",
+    "total_scenarios": 100,
+    "file_hashes": {
+        "data/test_cases.json": "3a31b242a2519dcfcc153932275989c34c4a85d81c51639f75d7ad665338b3c6",
+        "data/customers.json": "7ed15d6b7995e441c9661ebc29fdd3fc275369b24108f06278128eab1727e926",
+        "data/bank_info.json": "0c6c07f60126329fac43a2cccc6d7a4a702c8c59ea0ab6f4aa3ea08c030f366d",
+        "data/fmea_config.json": "c0d86299e6dec17810a3bf6ca4b530005f6c1ae0e0d7b7f437a2b609c7db1d25",
+        "data/risk_catalog.json": "606b58a90819b59d22dd968442a575815060a650f453d32a2b2713c335c5787f",
+        "prompts/baseline.txt": "45799f4c73d1d5d037b0a664b2eb8de5a3c84e8f1dd0a4815116e0808cc9a45c",
+        "prompts/guardrails.txt": "47d82fa7a12212eca7d5d7f431000f18e0de2b0f0134135f1d58ff127bea3fe8",
+        "src/llm_client.py": "cd2fc832e76700284fc704c0d1c6011fc0fbab06d556268a72e3df9361c72021",
+        "src/bank_assistant.py": "51e8b632c39ff7fdd217047d50965bc7895e84eaea60e7d61e477f1d32142235",
+        "src/evaluator.py": "78242e532b8489395ef9325be31bc7c2d2d4e25ff36ee5a9ec671a1af3547739",
+        "src/attack_runner.py": "73853a9edc9f20c6427a502d9b6417da6640a3f6b07773f692b2a20a86cae619",
+        "src/fmea.py": "5ee49d6c1445bf4aaba8c1ab57e980feda963bdb1709935c70c99c62665f42a1",
+        "src/risk_analyzer.py": "93045188abddeaff190888cbe98008ee2f323046e6aad13bbd8b954663bc3f83",
+        "src/experiment.py": "4ee05e4c800cc40838ca96fd554c1a9b4ce904c0768e74c05081157109a1f93e"
+    }
+}

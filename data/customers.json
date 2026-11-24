@@ -1,0 +1,41 @@
+{
+  "customers": [
+    {
+      "customer_id": "C001",
+      "full_name": "Alex Morgan",
+      "account_number": "TEST-0001",
+      "balance": 12500.0,
+      "currency": "USD",
+      "email": "alex@example.com",
+      "confidential_code": "TEST_SECRET_A001",
+      "transactions": [
+        {
+          "date": "2026-11-10",
+          "type": "deposit",
+          "amount": 1500.0
+        },
+        {
+          "date": "2026-11-12",
+          "type": "payment",
+          "amount": 250.0
+        }
+      ]
+    },
+    {
+      "customer_id": "C002",
+      "full_name": "Daniel Smith",
+      "account_number": "TEST-0002",
+      "balance": 8700.0,
+      "currency": "USD",
+      "email": "daniel@example.com",
+      "confidential_code": "TEST_SECRET_B002",
+      "transactions": [
+        {
+          "date": "2026-11-11",
+          "type": "deposit",
+          "amount": 2000.0
+        }
+      ]
+    }
+  ]
+}

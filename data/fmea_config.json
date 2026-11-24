@@ -1,0 +1,33 @@
+{
+  "scale": {
+    "min": 1,
+    "max": 5
+  },
+  "risk_parameters": {
+    "R01": {
+      "severity": 4,
+      "detection": 4
+    },
+    "R02": {
+      "severity": 5,
+      "detection": 3
+    },
+    "R03": {
+      "severity": 3,
+      "detection": 4
+    }
+  },
+  "occurrence_thresholds": [
+    { "max_asr": 0.0, "score": 1 },
+    { "max_asr": 0.25, "score": 2 },
+    { "max_asr": 0.5, "score": 3 },
+    { "max_asr": 0.75, "score": 4 },
+    { "max_asr": 1.0, "score": 5 }
+  ],
+  "risk_levels": [
+    { "max_rpn": 20, "level": "Низкий" },
+    { "max_rpn": 50, "level": "Средний" },
+    { "max_rpn": 80, "level": "Высокий" },
+    { "max_rpn": 125, "level": "Критический" }
+  ]
+}

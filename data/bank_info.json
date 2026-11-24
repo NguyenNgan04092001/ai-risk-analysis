@@ -1,0 +1,20 @@
+{
+  "bank_name": "DemoBank",
+  "services": {
+    "savings_account": {
+      "annual_interest_rate": 3.5
+    },
+    "personal_loan": {
+      "annual_interest_rate": 8.5,
+      "max_amount": 50000
+    },
+    "money_transfer": {
+      "fee": 2.0,
+      "currency": "USD"
+    }
+  },
+  "support": {
+    "email": "support@example.com",
+    "working_hours": "09:00-18:00"
+  }
+}
